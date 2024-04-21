@@ -1,0 +1,9 @@
+secret = "monster"                                # variable that contain correct word
+guess = ""                                      # variable where will enter correct word
+
+while guess != secret:                          # the cycle while will return if you enter the incorrect word
+    guess = input("enter the secret word:")     # and if you enter the incorrect word, print "try again"
+    if secret != guess:
+        print("try again")
+    else:
+        print("you are amazing!")
